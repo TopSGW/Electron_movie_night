@@ -34,7 +34,6 @@ const ipcMain = electron.ipcMain
 // Some APIs can only be used AFTER this event occurs.
 app.on('ready', handleReady)
 function handleReady () {
-  console.log(app.quit)
   appWindow.createAppWindow(app.quit)
 }
 
@@ -52,6 +51,7 @@ function handleWindowAllClosed () {
 app.on('activate', handleActivate)
 function handleActivate () {
   logger.info('Received activate event')
+  console.log("Received fileee")
   // On OS X it's common to re-create a window in the app when the
   // dock icon is clicked and there are no other windows open.
   appWindow.createAppWindow(app.quit)
