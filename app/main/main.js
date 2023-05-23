@@ -84,7 +84,6 @@ function handleCrawlDirectorySelectionEvent (selection) {
     appWindow.handleCrawlStartEvent(directory)
   } else {
     logger.info('User canceled directory file dialog')
-    console.log("User detectedddddd...")
   }
 }
 
