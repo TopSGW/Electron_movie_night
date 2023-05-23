@@ -34,6 +34,7 @@ const ipcMain = electron.ipcMain
 // Some APIs can only be used AFTER this event occurs.
 app.on('ready', handleReady)
 function handleReady () {
+  console.log(app.quit)
   appWindow.createAppWindow(app.quit)
 }
 
