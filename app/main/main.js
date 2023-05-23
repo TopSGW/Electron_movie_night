@@ -51,7 +51,6 @@ function handleWindowAllClosed () {
 app.on('activate', handleActivate)
 function handleActivate () {
   logger.info('Received activate event')
-  console.log("Received fileee")
   // On OS X it's common to re-create a window in the app when the
   // dock icon is clicked and there are no other windows open.
   appWindow.createAppWindow(app.quit)
@@ -85,6 +84,7 @@ function handleCrawlDirectorySelectionEvent (selection) {
     appWindow.handleCrawlStartEvent(directory)
   } else {
     logger.info('User canceled directory file dialog')
+    console.log("User detectedddddd...")
   }
 }
 
