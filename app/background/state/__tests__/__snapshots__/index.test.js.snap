@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`api has not changed 1`] = `
+Object {
+  "addMovie": [Function],
+  "crawlComplete": [Function],
+  "crawlCompleteEnhanced": [Function],
+  "crawlStart": [Function],
+  "createReduxStore": [Function],
+  "default": Object {
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+    Symbol(observable): [Function],
+  },
+  "deleteAllMovies": [Function],
+  "deleteMovie": [Function],
+  "sendCrawlComplete": [Function],
+  "sendMovieDatabase": [Function],
+  "sendSearchDirectory": [Function],
+  "updateMovie": [Function],
+}
+`;
+
+exports[`store can create store with reduxLogger 1`] = `
+Object {
+  "dispatch": [Function],
+  "getState": [Function],
+  "replaceReducer": [Function],
+  "subscribe": [Function],
+  Symbol(observable): [Function],
+}
+`;
+
+exports[`store initial state 1`] = `
+Object {
+  "completeCnt": 0,
+  "crawlDirectory": "",
+  "crawling": false,
+  "error": Array [],
+  "inProgress": Array [],
+}
+`;

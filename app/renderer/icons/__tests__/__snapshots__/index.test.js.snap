@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`font awesome icons Angle enhancers 1`] = `
+<i
+  className="fa fa-angle-down"
+/>
+`;
+
+exports[`font awesome icons Angle enhancers 2`] = `
+<i
+  className="fa fa-angle-left"
+/>
+`;
+
+exports[`font awesome icons Angle enhancers 3`] = `
+<i
+  className="fa fa-angle-right"
+/>
+`;
+
+exports[`font awesome icons Angle enhancers 4`] = `
+<i
+  className="fa fa-angle-up"
+/>
+`;
+
+exports[`font awesome icons Chevron enhancers 1`] = `
+<i
+  className="fa fa-chevron-down"
+/>
+`;
+
+exports[`font awesome icons Chevron enhancers 2`] = `
+<i
+  className="fa fa-chevron-left"
+/>
+`;
+
+exports[`font awesome icons Chevron enhancers 3`] = `
+<i
+  className="fa fa-chevron-right"
+/>
+`;
+
+exports[`font awesome icons Chevron enhancers 4`] = `
+<i
+  className="fa fa-chevron-up"
+/>
+`;
+
+exports[`font awesome icons FileIcon video 1`] = `
+<i
+  className="fa fa-file-video-o"
+/>
+`;
+
+exports[`font awesome icons Info circle 1`] = `
+<i
+  className="fa fa-info-circle"
+/>
+`;
+
+exports[`font awesome icons Star half 1`] = `
+<i
+  className="fa fa-star-half-o"
+/>
+`;
+
+exports[`font awesome icons Star outline 1`] = `
+<i
+  className="fa fa-star-o"
+/>
+`;
+
+exports[`font awesome icons classname passed through 1`] = `
+<i
+  className="fa fa-anchor orig-class-name"
+/>
+`;
+
+exports[`font awesome icons enhancers 1`] = `
+<i
+  className="fa fa-anchor fa-border"
+/>
+`;
+
+exports[`font awesome icons enhancers 2`] = `
+<i
+  className="fa fa-anchor fa-fw"
+/>
+`;
+
+exports[`font awesome icons enhancers 3`] = `
+<i
+  className="fa fa-anchor fa-lg"
+/>
+`;
+
+exports[`font awesome icons enhancers 4`] = `
+<i
+  className="fa fa-anchor fa-pulse"
+/>
+`;
+
+exports[`font awesome icons enhancers 5`] = `
+<i
+  className="fa fa-anchor fa-3x"
+/>
+`;
+
+exports[`font awesome icons icons 1`] = `
+<i
+  className="fa fa-anchor"
+/>
+`;
+
+exports[`font awesome icons icons 2`] = `
+<i
+  className="fa fa-angle-right"
+/>
+`;
+
+exports[`font awesome icons icons 3`] = `
+<i
+  className="fa fa-bars"
+/>
+`;
+
+exports[`font awesome icons icons 4`] = `
+<i
+  className="fa fa-ban"
+/>
+`;
+
+exports[`font awesome icons icons 5`] = `
+<i
+  className="fa fa-chevron-right"
+/>
+`;
+
+exports[`font awesome icons icons 6`] = `
+<i
+  className="fa fa-database"
+/>
+`;
+
+exports[`font awesome icons icons 7`] = `
+<i
+  className="fa fa-close"
+/>
+`;
+
+exports[`font awesome icons icons 8`] = `
+<i
+  className="fa fa-pencil"
+/>
+`;
+
+exports[`font awesome icons icons 9`] = `
+<i
+  className="fa fa-file"
+/>
+`;
+
+exports[`font awesome icons icons 10`] = `
+<i
+  className="fa fa-download"
+/>
+`;
+
+exports[`font awesome icons icons 11`] = `
+<i
+  className="fa fa-info"
+/>
+`;
+
+exports[`font awesome icons icons 12`] = `
+<i
+  className="fa fa-play"
+/>
+`;
+
+exports[`font awesome icons icons 13`] = `
+<i
+  className="fa fa-search"
+/>
+`;
+
+exports[`font awesome icons icons 14`] = `
+<i
+  className="fa fa-spinner"
+/>
+`;
+
+exports[`font awesome icons icons 15`] = `
+<i
+  className="fa fa-star"
+/>
+`;
+
+exports[`font awesome icons icons 16`] = `
+<i
+  className="fa fa-trash"
+/>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`action types have not change 1`] = `
+Object {
+  "ADD_MOVIE_FILE": "add-movie-file",
+  "CRAWL_COMPLETE": "crawl-complete",
+  "CRAWL_START": "crawl-start",
+  "MOVIE_FILE_COMPLETE": "movie-file-complete",
+  "MOVIE_FILE_ERROR": "movie-file-error",
+}
+`;

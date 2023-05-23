@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app renders without crashing 1`] = `
+<div
+  className="sc-EHOje gFrDcL sc-bdVaJa jJjJOT"
+>
+  <span
+    className="sc-bwzfXH dTlhFj"
+  >
+    Movie
+  </span>
+  <i
+    className="fa fa-anchor sc-htpNat eorCwZ fa-lg"
+  />
+  <span
+    className="sc-bwzfXH dTlhFj"
+  >
+    Night
+  </span>
+</div>
+`;

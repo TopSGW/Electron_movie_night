@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`crawlForMovies calls movie file callback during crawl 1`] = `
+Array [
+  "2012 (2009).mov",
+  "I Dont Know How She Does It (2011).webm",
+  "Killers (2010).m4v",
+  "Old School.avi",
+  "Star Trek 2009.mp4",
+  "TheDuchess[2008].mpeg",
+  "sample.avi",
+  "test footage.mp4",
+]
+`;
+
+exports[`crawlForMovies calls search directory callback during crawl 1`] = `
+Array [
+  "__tests__",
+  "__fixtures__",
+  "empty_movie_files_for_testing",
+  "__snapshots__",
+]
+`;

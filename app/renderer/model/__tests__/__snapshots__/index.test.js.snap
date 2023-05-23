@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`public selectors getAllMovies 1`] = `
+Array [
+  Object {
+    "genre": "thriller",
+    "movies": Array [
+      Object {
+        "actors": Array [
+          "Will Ferrell",
+          "Luke Wilson",
+        ],
+        "director": "Todd Phillips",
+        "title": "Old School",
+      },
+      Object {
+        "actors": Array [
+          "Kevin Hefferman",
+          "Steve Lemme",
+        ],
+        "director": "Jay Chand",
+        "title": "Super Troopers",
+      },
+    ],
+  },
+  Object {
+    "genre": "action",
+    "movies": Array [
+      Object {
+        "actors": Array [
+          "Will Ferrell",
+          "Luke Wilson",
+        ],
+        "director": "Todd Phillips",
+        "title": "Old School",
+      },
+      Object {
+        "actors": Array [
+          "Kevin Hefferman",
+          "Steve Lemme",
+        ],
+        "director": "Jay Chand",
+        "title": "Super Troopers",
+      },
+      Object {
+        "actors": Array [
+          "Vince Vaugh",
+          "Owen Wilson",
+        ],
+        "director": "David Dobkin",
+        "title": "Wedding Crashers",
+      },
+      Object {
+        "actors": Array [
+          "Ben Stiller",
+          "Robert De Niro",
+        ],
+        "director": "Jay Roach",
+        "title": "Meet The Parents",
+      },
+    ],
+  },
+  Object {
+    "genre": "drama",
+    "movies": Array [
+      Object {
+        "actors": Array [
+          "Will Ferrell",
+          "Luke Wilson",
+        ],
+        "director": "Todd Phillips",
+        "title": "Old School",
+      },
+      Object {
+        "actors": Array [
+          "Kevin Hefferman",
+          "Steve Lemme",
+        ],
+        "director": "Jay Chand",
+        "title": "Super Troopers",
+      },
+      Object {
+        "actors": Array [
+          "Vince Vaugh",
+          "Owen Wilson",
+        ],
+        "director": "David Dobkin",
+        "title": "Wedding Crashers",
+      },
+    ],
+  },
+]
+`;
+
+exports[`public selectors getCrawlActive 1`] = `true`;
+
+exports[`public selectors getFeaturedMovie 1`] = `
+Object {
+  "action": "click",
+  "movie": "someMovie",
+  "panelID": 2,
+}
+`;
+
+exports[`public selectors getSearchCategory 1`] = `"action"`;
+
+exports[`public selectors getSearchQuery 1`] = `"Old School"`;
+
+exports[`public selectors getVisibleMovies 1`] = `
+Array [
+  Object {
+    "genre": "action",
+    "movies": Array [
+      Object {
+        "actors": Array [
+          "Will Ferrell",
+          "Luke Wilson",
+        ],
+        "director": "Todd Phillips",
+        "title": "Old School",
+      },
+    ],
+  },
+]
+`;
+
+exports[`store getState 1`] = `
+Object {
+  "crawl": Object {
+    "active": false,
+    "directory": "",
+    "inProgress": Array [],
+    "moviesFound": 0,
+    "showCrawlStatsOverlay": false,
+  },
+  "dbLoaded": false,
+  "featuredMovie": Object {
+    "action": "",
+    "movie": null,
+    "panelID": -1,
+  },
+  "movies": Object {
+    "displayOrder": Array [],
+    "movieDB": Array [],
+  },
+  "search": Object {
+    "category": "",
+    "query": "",
+  },
+}
+`;

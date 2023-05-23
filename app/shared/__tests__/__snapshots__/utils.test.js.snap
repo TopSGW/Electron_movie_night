@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils filePathToUrl posix path 1`] = `"file:///Users/user/Movie%20Database/Top%20Gun.mkv"`;
+
+exports[`utils filePathToUrl windows path 1`] = `"file:///C:/Users/user/Movie%20Database/Top%20Gun.mkv"`;

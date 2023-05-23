@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handleCrawlDirectoryEvent calls crawlComplete on crawl error 1`] = `
+Object {
+  "movieFileCb": [Function],
+  "rootDirectory": "/path/to/some/directory",
+  "searchDirCb": [Function],
+}
+`;
+
+exports[`handleCrawlDirectoryEvent calls crawlStart, crawlForMovies, and crawlComplete 1`] = `
+Object {
+  "movieFileCb": [Function],
+  "rootDirectory": "/path/to/some/directory",
+  "searchDirCb": [Function],
+}
+`;

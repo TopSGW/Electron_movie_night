@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieThumbnail renders 1`] = `
+<div
+  className="sc-htpNat hBSyaA"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <img
+    alt="Old School"
+    className="sc-bxivhb jTaKmc"
+    src="/path/to/poster"
+  />
+</div>
+`;
+
+exports[`MovieThumbnail renders 2`] = `
+<div
+  className="sc-htpNat hBSyaA"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <img
+    alt="Old School"
+    className="sc-bxivhb jTaKmc"
+    src="/path/to/poster"
+  />
+  <div
+    className="sc-bZQynM ixKulh"
+    onAnimationEnd={[Function]}
+  >
+    <div
+      className="sc-bdVaJa bqeGKh"
+      onClick={undefined}
+    >
+      <i
+        className="fa fa-play sc-bwzfXH fnOVYt"
+        onClick={[Function]}
+      />
+    </div>
+    <i
+      className="fa fa-angle-down sc-htoDjs mwGmO"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`MovieThumbnail renders 3`] = `
+<div
+  className="sc-htpNat hBSyaA"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <img
+    alt="Old School"
+    className="sc-bxivhb jTaKmc"
+    src="/path/to/poster"
+  />
+  <div
+    className="sc-bZQynM ixKulh"
+    onAnimationEnd={[Function]}
+  >
+    <div
+      className="sc-bdVaJa bqeGKh"
+      onClick={undefined}
+    >
+      <i
+        className="fa fa-play sc-bwzfXH fnOVYt"
+        onClick={[Function]}
+      />
+    </div>
+    <i
+      className="fa fa-angle-down sc-htoDjs mwGmO"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`MovieThumbnail renders 4`] = `
+<div
+  className="sc-htpNat hBSyaA"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <img
+    alt="Old School"
+    className="sc-bxivhb jTaKmc"
+    src="/path/to/poster"
+  />
+  <div
+    className="sc-gzVnrw bkbqMW"
+    onAnimationEnd={[Function]}
+  >
+    <div
+      className="sc-bdVaJa bqeGKh"
+      onClick={undefined}
+    >
+      <i
+        className="fa fa-play sc-bwzfXH fnOVYt"
+        onClick={[Function]}
+      />
+    </div>
+    <i
+      className="fa fa-angle-down sc-htoDjs mwGmO"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`MovieThumbnail renders 5`] = `
+<div
+  className="sc-htpNat hBSyaA"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <img
+    alt="Old School"
+    className="sc-bxivhb jTaKmc"
+    src="/path/to/poster"
+  />
+</div>
+`;
+
+exports[`MovieThumbnail renders 6`] = `
+<div
+  className="sc-htpNat hBSyaA"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <img
+    alt="Old School"
+    className="sc-bxivhb jTaKmc"
+    src="/path/to/poster"
+  />
+  <div
+    className="sc-bZQynM ixKulh"
+    onAnimationEnd={[Function]}
+  >
+    <div
+      className="sc-bdVaJa bqeGKh"
+      onClick={undefined}
+    >
+      <i
+        className="fa fa-play sc-bwzfXH fnOVYt"
+        onClick={[Function]}
+      />
+    </div>
+    <i
+      className="fa fa-angle-down sc-htoDjs mwGmO"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`MovieThumbnail renders 7`] = `
+<div
+  className="sc-htpNat hBSyaA"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <img
+    alt="Old School"
+    className="sc-bxivhb jTaKmc"
+    src="/path/to/poster"
+  />
+</div>
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button passes through className 1`] = `
+<div
+  className="cn-test sc-bwzfXH gStPc sc-bdVaJa hpCjNj"
+  onClick={[Function]}
+>
+  <i
+    className="fa fa-download"
+  />
+</div>
+`;
+
+exports[`Button renders with database icon for not busy state 1`] = `
+<div
+  className="sc-bwzfXH gStPc sc-bdVaJa hpCjNj"
+  onClick={[Function]}
+>
+  <i
+    className="fa fa-download"
+  />
+</div>
+`;
+
+exports[`Button renders with spinner icon for busy state 1`] = `
+<div
+  className="sc-bdVaJa hpCjNj"
+  onClick={[Function]}
+>
+  <i
+    className="fa fa-spinner fa-pulse"
+  />
+</div>
+`;

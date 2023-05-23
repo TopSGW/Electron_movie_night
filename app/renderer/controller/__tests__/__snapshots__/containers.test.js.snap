@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App mapStateToAppProps 1`] = `
+Object {
+  "dbLoaded": false,
+  "showCrawlStatsOverlay": false,
+}
+`;
+
+exports[`DisplayMoviesContainer mapDispatchToDisplayMoviesProps 1`] = `
+Object {
+  "clearFeaturedMovie": [Function],
+  "clearSearchQuery": [Function],
+  "deleteMovieFromDb": [Function],
+  "updateMovieMetadata": [Function],
+  "updateSearchCategory": [Function],
+}
+`;
+
+exports[`DisplayMoviesContainer mapDispatchToDisplayMoviesProps 2`] = `
+Object {
+  "type": "clear-search-query",
+}
+`;
+
+exports[`DisplayMoviesContainer mapDispatchToDisplayMoviesProps 3`] = `
+Object {
+  "type": "clear-featured-movie",
+}
+`;
+
+exports[`DisplayMoviesContainer mapDispatchToDisplayMoviesProps 4`] = `
+Object {
+  "payload": "action",
+  "type": "update-search-category",
+}
+`;
+
+exports[`DisplayMoviesContainer mapStateToDisplayMoviesProps 1`] = `
+Object {
+  "featuredMovie": Object {
+    "action": "",
+    "movie": null,
+    "panelID": -1,
+  },
+  "movies": Array [],
+  "searchCategory": "",
+  "searchQuery": "",
+}
+`;
+
+exports[`ImportMovies mapStateToImportMoviesProps 1`] = `
+Object {
+  "busy": false,
+  "haveMovies": false,
+}
+`;
+
+exports[`MainContent mapStateToMainContentProps 1`] = `
+Object {
+  "handleAddMediaClick": [Function],
+  "isCrawling": false,
+  "totalMovieCount": 0,
+}
+`;
+
+exports[`MovieThumbnailContainer mapDispatchToMovieThumbnailProps 1`] = `
+Object {
+  "handleMovieSelected": [Function],
+}
+`;
+
+exports[`MovieThumbnailContainer mapDispatchToMovieThumbnailProps 2`] = `
+Object {
+  "payload": Object {
+    "action": "click",
+    "movie": "top gun",
+    "panelID": 1,
+  },
+  "type": "update-featured-movie",
+}
+`;
+
+exports[`SearchMovies mapDispatchToSearchBarProps 1`] = `
+Object {
+  "handleClear": [Function],
+  "handleQueryChange": [Function],
+}
+`;
+
+exports[`SearchMovies mapDispatchToSearchBarProps 2`] = `
+Object {
+  "payload": "top gun",
+  "type": "update-search-query",
+}
+`;
+
+exports[`SearchMovies mapDispatchToSearchBarProps 3`] = `
+Object {
+  "type": "clear-search-results",
+}
+`;
+
+exports[`SearchMovies mapStateToSearchBarProps 1`] = `
+Object {
+  "searchCategory": "",
+  "searchQuery": "",
+}
+`;

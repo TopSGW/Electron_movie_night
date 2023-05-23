@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders header component and styles 1`] = `
+<header
+  className="sc-fYxtnH gqlVNm"
+>
+  <div
+    className="sc-bdVaJa jJjJOT"
+  >
+    <span
+      className="sc-bwzfXH dTlhFj"
+    >
+      Movie
+    </span>
+    <i
+      className="fa fa-anchor sc-htpNat eorCwZ fa-lg"
+    />
+    <span
+      className="sc-bwzfXH dTlhFj"
+    >
+      Night
+    </span>
+  </div>
+  <div
+    className="sc-tilXH gKhWkj"
+  >
+    <div
+      className="sc-bbmXgH iLmHWB"
+    >
+      <i
+        className="fa fa-search sc-gGBfsJ buRvNI fa-lg"
+      />
+      <input
+        className="form-control input"
+        onChange={[Function]}
+        placeholder="Title, genre, actor"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="sc-bZQynM jCHsoD sc-EHOje fefBnX"
+      onClick={[Function]}
+    >
+      <i
+        className="fa fa-download"
+      />
+    </div>
+  </div>
+</header>
+`;

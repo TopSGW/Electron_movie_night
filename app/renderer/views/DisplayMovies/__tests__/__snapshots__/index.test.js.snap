@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DisplayMovies animates featured movie 1`] = `
+<div
+  className="sc-htpNat fwfEAa"
+  onAnimationEnd={[Function]}
+>
+  <div
+    movie={
+      Object {
+        "actors": Array [
+          "Ben Stiller",
+          "Will Ferrell",
+        ],
+        "director": "Todd Phillips",
+        "fileInfo": Array [
+          Object {
+            "location": "/path/to/movie",
+          },
+        ],
+        "genres": Array [
+          "action",
+          "comedy",
+          "drama",
+        ],
+        "imdbID": "tt123",
+        "imgFile": "/path/to/img",
+      }
+    }
+  >
+    MovieDetailMock
+  </div>
+</div>
+`;
+
+exports[`DisplayMovies animates featured movie 2`] = `
+<div
+  className="sc-bdVaJa gECVQw"
+>
+  <div>
+    <div
+      category="action"
+      handleSelectCategory={[Function]}
+      id={0}
+      movies={
+        Array [
+          Object {
+            "actors": Array [
+              "Ben Stiller",
+              "Will Ferrell",
+            ],
+            "director": "Todd Phillips",
+            "fileInfo": Array [
+              Object {
+                "location": "/path/to/movie",
+              },
+            ],
+            "genres": Array [
+              "action",
+              "comedy",
+              "drama",
+            ],
+            "imdbID": "tt123",
+            "imgFile": "/path/to/img",
+          },
+        ]
+      }
+      renderStyle="grid"
+    >
+      MovieGalleryMock
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DisplayMovies renders No Matches when no movies 1`] = `
+<div
+  className="sc-bxivhb cFqVw"
+>
+  No Matches
+</div>
+`;
+
+exports[`DisplayMovies renders featured movie from search result 1`] = `
+<div
+  className="sc-bwzfXH gNLDG"
+>
+  <div
+    center={false}
+    handleCloseMovieDetails={[Function]}
+    movie={
+      Object {
+        "actors": Array [
+          "Ben Stiller",
+          "Will Ferrell",
+        ],
+        "director": "Todd Phillips",
+        "fileInfo": Array [
+          Object {
+            "location": "/path/to/movie",
+          },
+        ],
+        "genres": Array [
+          "action",
+          "comedy",
+          "drama",
+        ],
+        "imdbID": "tt123",
+        "imgFile": "/path/to/img",
+      }
+    }
+    onMoveToTrash={undefined}
+    onUpdateMovieMetadata={undefined}
+  >
+    MovieDetailMock
+  </div>
+</div>
+`;
+
+exports[`DisplayMovies renders multiple movies using row style 1`] = `
+<div
+  className="sc-bdVaJa gECVQw"
+>
+  <div>
+    <div
+      category="action"
+      handleSelectCategory={[Function]}
+      id={0}
+      movies={
+        Array [
+          Object {
+            "actors": Array [
+              "Ben Stiller",
+              "Will Ferrell",
+            ],
+            "director": "Todd Phillips",
+            "fileInfo": Array [
+              Object {
+                "location": "/path/to/movie",
+              },
+            ],
+            "genres": Array [
+              "action",
+              "comedy",
+              "drama",
+            ],
+            "imdbID": "tt123",
+            "imgFile": "/path/to/img",
+          },
+        ]
+      }
+      renderStyle="row"
+    >
+      MovieGalleryMock
+    </div>
+  </div>
+  <div>
+    <div
+      category="drama"
+      handleSelectCategory={[Function]}
+      id={1}
+      movies={
+        Array [
+          Object {
+            "actors": Array [
+              "Ben Stiller",
+              "Will Ferrell",
+            ],
+            "director": "Todd Phillips",
+            "fileInfo": Array [
+              Object {
+                "location": "/path/to/movie",
+              },
+            ],
+            "genres": Array [
+              "action",
+              "comedy",
+              "drama",
+            ],
+            "imdbID": "tt123",
+            "imgFile": "/path/to/img",
+          },
+        ]
+      }
+      renderStyle="row"
+    >
+      MovieGalleryMock
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DisplayMovies renders single movie using grid style 1`] = `
+<div
+  className="sc-bdVaJa gECVQw"
+>
+  <div>
+    <div
+      category="action"
+      handleSelectCategory={[Function]}
+      id={0}
+      movies={
+        Array [
+          Object {
+            "actors": Array [
+              "Ben Stiller",
+              "Will Ferrell",
+            ],
+            "director": "Todd Phillips",
+            "fileInfo": Array [
+              Object {
+                "location": "/path/to/movie",
+              },
+            ],
+            "genres": Array [
+              "action",
+              "comedy",
+              "drama",
+            ],
+            "imdbID": "tt123",
+            "imgFile": "/path/to/img",
+          },
+        ]
+      }
+      renderStyle="grid"
+    >
+      MovieGalleryMock
+    </div>
+  </div>
+</div>
+`;

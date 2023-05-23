@@ -1,0 +1,48 @@
+---
+version: 2
+
+references:
+  dirs:
+    movie_night: &movie_night_dir
+      ~/movie-night
+
+  images:
+    node: &node_image
+      circleci/node:8
+
+  cache_keys:
+    yarn:
+      yarn_cache_key: &yarn_cache_key
+        v8-yarn-{{ checksum "yarn.lock" }}-{{ .Branch }}
+      yarn_lock_cache_key: &yarn_lock_cache_key
+        v8-yarn-{{ checksum "yarn.lock" }}
+      yarn_base_cache_key: &yarn_base_cache_key
+        v8-yarn
+  caches:
+    node_modules: &restore_node_modules
+      restore_cache:
+        keys:
+          - *yarn_cache_key
+          - *yarn_lock_cache_key
+          - *yarn_base_cache_key
+jobs:
+  build:
+    working_directory: *movie_night_dir
+    docker:
+      - image: *node_image
+    steps:
+      - run:
+          name: "Checking Versions"
+          command: |
+            node --version
+            yarn --version
+      - checkout
+      - *restore_node_modules
+      - run: yarn install
+      - run: yarn build
+      - run: yarn run test:all --maxWorkers 2
+      - run: yarn run dist
+      - save_cache:
+          key: *yarn_cache_key
+          paths:
+            - node_modules

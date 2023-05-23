@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetchMovieMetadata resolves with fileInfo metadata on successful fetch 1`] = `
+Object {
+  "imgFile": "",
+  "location": "OldSchool.avi",
+  "query": "file=OldSchool.avi",
+  "successQuery": "file=OldSchool.avi",
+}
+`;
+
+exports[`fetchMovieMetadata resolves with imgFile when metadata contains imgUrl 1`] = `
+Object {
+  "imdbID": "tt123",
+  "imgFile": "/path/to/movie/posters/tt123.png",
+  "imgUrl": "http://poster.png",
+  "location": "OldSchool imgUrl",
+  "query": "file=OldSchool%20imgUrl",
+  "successQuery": "file=OldSchool%20imgUrl",
+}
+`;

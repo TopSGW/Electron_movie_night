@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput passes down props 1`] = `
+<input
+  className="form-control input"
+  type="text"
+  value="Hello World!"
+/>
+`;
+
+exports[`TextInput passes through className 1`] = `
+<input
+  className="form-control input orig-class-name"
+  type="text"
+/>
+`;
+
+exports[`TextInput renders with expected type and className 1`] = `
+<input
+  className="form-control input"
+  type="text"
+/>
+`;

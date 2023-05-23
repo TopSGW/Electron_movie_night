@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieGallery render category plus callback selectCategory onClick 1`] = `
+<div
+  className="sc-bwzfXH jOuPFw"
+>
+  <h2
+    className="sc-htpNat gvHaIo"
+  >
+    <span
+      className="sc-bxivhb bSYJga"
+      onClick={[Function]}
+    >
+      Action
+      <i
+        className="fa fa-chevron-right fa-fw"
+      />
+    </span>
+  </h2>
+  <div
+    className="sc-ifAKCX kxzXyO"
+  >
+    <div
+      className="sc-bdVaJa erRPjQ"
+    >
+      <div>
+        MovieThumbnailContainerMock
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MovieGallery render grid style with category 1`] = `
+<div
+  className="sc-bwzfXH jOuPFw"
+>
+  <h2
+    className="sc-htpNat gvHaIo"
+  >
+    Drama
+  </h2>
+  <div
+    className="sc-EHOje fhxHOS"
+  >
+    <div
+      className="sc-bdVaJa erRPjQ"
+    >
+      <div>
+        MovieThumbnailContainerMock
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MovieGallery render horizontal scroll with no category 1`] = `
+<div
+  className="sc-bwzfXH jOuPFw"
+>
+  <div
+    className="sc-ifAKCX kxzXyO"
+  >
+    <div
+      className="sc-bdVaJa erRPjQ"
+    >
+      <div>
+        MovieThumbnailContainerMock
+      </div>
+    </div>
+  </div>
+</div>
+`;

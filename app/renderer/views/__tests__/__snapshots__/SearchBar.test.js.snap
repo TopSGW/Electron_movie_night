@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar renders icon and placeholder when no searchCategory and no searchQuery 1`] = `
+<div
+  className="sc-bwzfXH laRAPy"
+>
+  <i
+    className="fa fa-search sc-htpNat ekVFIt fa-lg"
+  />
+  <input
+    className="form-control input"
+    onChange={[Function]}
+    placeholder="Title, genre, actor"
+    type="text"
+    value="undefined"
+  />
+</div>
+`;
+
+exports[`SearchBar renders searchCategory and close button on search category 1`] = `
+<div
+  className="sc-bwzfXH laRAPy"
+>
+  <i
+    className="fa fa-search sc-htpNat ekVFIt fa-lg"
+  />
+  <input
+    className="form-control input"
+    onChange={[Function]}
+    placeholder=""
+    type="text"
+    value="               undefined"
+  />
+  <button
+    className="sc-bdVaJa eQMtnj"
+  >
+    action
+  </button>
+  <i
+    className="fa fa-close sc-bxivhb dntAbt"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`SearchBar renders searchCategory, searchQuery and close button 1`] = `
+<div
+  className="sc-bwzfXH laRAPy"
+>
+  <i
+    className="fa fa-search sc-htpNat ekVFIt fa-lg"
+  />
+  <input
+    className="form-control input"
+    onChange={[Function]}
+    placeholder=""
+    type="text"
+    value="               Top Gun"
+  />
+  <button
+    className="sc-bdVaJa eQMtnj"
+  >
+    action
+  </button>
+  <i
+    className="fa fa-close sc-bxivhb dntAbt"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`SearchBar renders searchQuery and close button on query 1`] = `
+<div
+  className="sc-bwzfXH laRAPy"
+>
+  <i
+    className="fa fa-search sc-htpNat ekVFIt fa-lg"
+  />
+  <input
+    className="form-control input"
+    onChange={[Function]}
+    placeholder="Title, genre, actor"
+    type="text"
+    value="Old School"
+  />
+  <i
+    className="fa fa-close sc-bxivhb dntAbt"
+    onClick={[Function]}
+  />
+</div>
+`;
